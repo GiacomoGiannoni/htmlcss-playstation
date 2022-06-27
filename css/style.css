@@ -2,3 +2,14 @@
     width: 100px;
     padding: 5px;
 }
+
+.debug #jumbotron {
+    background-color: black;
+    min-height: 500px;
+}
+
+.debug #jumbotron ._backgraound {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
