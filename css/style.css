@@ -48,6 +48,14 @@
     margin-top: 50px;
 }
 
+#PSplus {
+    background-color: #BEBCBB;
+}
+
+.ms_imgpsplus {
+    width: 300px;
+}
+
 @media all and (min-width: 768px) {
     .ms_image_thumbnail {
         width: 50%;
