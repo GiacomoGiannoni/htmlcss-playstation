@@ -1,15 +1,59 @@
+:root {
+    --ms-primary-color: #2B72CE;
+    --ms-gray-color: gray;
+}
+
 ._img_logo {
-    width: 100px;
+    width: 75px;
     padding: 5px;
 }
 
-.debug #jumbotron {
-    background-color: black;
-    min-height: 500px;
+.ms_jumbotron_slide {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
 }
 
-.debug #jumbotron ._backgraound {
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
+.ms_btn_red {
+    background-color: #cd3d10;
+}
+
+#jumbotron img.active {
+    outline: solid 2px var(--ms-primary-color);
+    outline-offset: 5px;
+}
+
+.ms_title_h4 {
+    color: var(--ms-primary-color);
+}
+
+.ms_btn_blue {
+    background-color: var(--ms-primary-color);
+}
+
+.ms_color_grey {
+    color: var(--ms-gray-color);
+}
+
+#buy {
+    background-color: black;
+}
+
+.ms_newexit_slide {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    margin-top: 50px;
+}
+
+@media all and (min-width: 768px) {
+    .ms_image_thumbnail {
+        width: 50%;
+    }
+}
+
+#dispositivi .col .active {
+    border-bottom: solid 2px var(--ms-primary-color);
 }
