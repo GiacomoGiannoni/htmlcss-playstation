@@ -52,8 +52,28 @@
     background-color: #BEBCBB;
 }
 
+#PSnow {
+    background-color: #161C3B;
+}
+
 .ms_imgpsplus {
     width: 300px;
+}
+
+.ms_imgps {
+    width: 75px;
+}
+
+.ms_whidthglobe {
+    width: 16px;
+}
+
+.ms_img {
+    width: 150px;
+}
+
+footer {
+    background-color: #00439C;
 }
 
 @media all and (min-width: 768px) {
